@@ -48,16 +48,26 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:1.5rem 7%;
+    padding:1.5rem 7% ;
     border-bottom: var(--border);
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 1000;
+    height: 70px;
 }
 
-.header .logo img{
-    height: 6rem;
+/* .logo{
+    display: flex;
+    position: absolute;
+} */
+
+.logo img{
+    height: 14rem;
 }
+
+/* .header .navbar{
+    height: 30px;
+} */
 
 .header .navbar a{
     margin:0 1rem;
